@@ -3,7 +3,7 @@ function EntrarLogin() {
 
     if (nome.trim() !== "") { // Verifica se o campo não está vazio
         localStorage.setItem('nomeUsuario', nome); // Armazena o nome no localStorage com o "código"  > (nomeUsuario)
-        window.location.href = "secundaria.html"; // Redireciona para a página secundária
+        window.location.href = "../paginas/secundaria.html"; // Redireciona para a página secundária
     } else {
         alert("Por favor, digite seu nome!");
     }
